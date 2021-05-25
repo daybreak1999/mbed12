@@ -1,7 +1,7 @@
 #include "mbed.h"
 
 BufferedSerial pc(USBTX, USBRX);
-DigitalIn encoder(D11);
+DigitalIn encoder(D12);
 
 Ticker encoder_ticker;
 
